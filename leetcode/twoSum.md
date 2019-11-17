@@ -1,7 +1,13 @@
+# two sum
+
+## c语言实现第一版,暴力破解法
+```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
-int* twoSum(int* nums, int numsSize, int target, int* returnSize){
+
+int* twoSum(int* nums, int numsSize, int target, int* returnSize)
+{
     int *result = (int *)malloc(sizeof(int) * 2);
 
     for (int i = 0; i < numsSize; i++)
@@ -18,3 +24,11 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 
     return result;
 }
+```
+
+## c语言实现第二版
+
+```
+
+```
+
