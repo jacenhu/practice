@@ -25,10 +25,3 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize)
     return result;
 }
 ```
-
-## c语言实现第二版
-
-```
-
-```
-
